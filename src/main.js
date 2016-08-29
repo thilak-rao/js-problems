@@ -1,2 +1,3 @@
 // require('./is-unique');
-require('./factorial');
+// require('./factorial');
+require('./addTwoArray');
