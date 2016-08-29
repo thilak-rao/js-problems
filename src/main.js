@@ -1,1 +1,1 @@
-alert('Hello World!!');
+require('./is-unique');
