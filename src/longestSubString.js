@@ -9,7 +9,7 @@ function longestSubString(string) {
         current = chars[0];
 
 
-    chars.forEach((value, i) => {
+    chars.forEach((value) => {
         if(current !== value) {
             current = value;
             map[value] = 1;
