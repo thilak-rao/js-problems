@@ -1,3 +1,4 @@
 // require('./is-unique');
 // require('./factorial');
-require('./addTwoArray');
+// require('./addTwoArray');
+require('./isPrime');
