@@ -1,1 +1,2 @@
-require('./is-unique');
+// require('./is-unique');
+require('./factorial');
