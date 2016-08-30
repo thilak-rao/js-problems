@@ -5,4 +5,5 @@
 // require('./balancedParenthese');
 // require('./longestSubString');
 // require('./midChar');
-require('./betterParseInt');
+// require('./betterParseInt');
+require('./flatten');
