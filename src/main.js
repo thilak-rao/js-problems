@@ -3,4 +3,5 @@
 // require('./addTwoArray');
 // require('./isPrime');
 // require('./balancedParenthese');
-require('./longestSubString');
+// require('./longestSubString');
+require('./midChar');
