@@ -4,4 +4,5 @@
 // require('./isPrime');
 // require('./balancedParenthese');
 // require('./longestSubString');
-require('./midChar');
+// require('./midChar');
+require('./betterParseInt');
