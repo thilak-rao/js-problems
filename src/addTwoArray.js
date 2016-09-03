@@ -18,5 +18,5 @@ function addArray(array1, array2) {
         }
 
         return value;
-    })
+    });
 }
