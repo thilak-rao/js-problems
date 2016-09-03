@@ -5,31 +5,30 @@
  */
 function longestSubString(string) {
     let chars   = string.split(''),
-        map     = {},
+        map     = new Map(),
         current = chars[0];
 
 
     chars.forEach((value) => {
         if(current !== value) {
             current = value;
-            map[value] = 1;
+            map.set(value, 1);
         } else {
-            if(typeof map[value] === 'undefined') {
-                map[value] = 1;
+            if(!map.has(value)) {
+                map.set(value, 1);
             } else {
-                map[value] += 1;
+                map.set(value, map.get(value) + 1);
             }
         }
     });
 
     let highest = 0, c;
-
-    for (const key in map) {
-        if (map[key] > highest) {
+    map.forEach((value, key) => {
+        if (value > highest) {
             c = key;
-            highest = map[key];
+            highest = map.get(key);
         }
-    }
+    });
 
     return c.repeat(highest);
 }

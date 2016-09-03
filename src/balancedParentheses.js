@@ -33,7 +33,7 @@ function bracketsMatch(string) {
     return isMatch;
 }
 
-bracketsMatch('{{[()]}}'); // true
-bracketsMatch('{{[(]}}'); // false
-bracketsMatch('{{[(>]}}'); // false
-bracketsMatch('()'); // true
+console.log(bracketsMatch('{{[()]}}')); // true
+console.log(bracketsMatch('{{[(]}}')); // false
+console.log(bracketsMatch('{{[(>]}}')); // false
+console.log(bracketsMatch('()')); // true

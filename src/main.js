@@ -2,10 +2,10 @@
 // require('./factorial');
 // require('./addTwoArray');
 // require('./isPrime');
-// require('./balancedParenthese');
+require('./balancedParentheses');
 // require('./longestSubString');
 // require('./midChar');
 // require('./betterParseInt');
 // require('./flatten');
 // require('./anagramPalindrome');
-require('./eliminateDuplicates');
+// require('./eliminateDuplicates');
