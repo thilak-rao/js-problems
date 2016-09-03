@@ -6,4 +6,6 @@
 // require('./longestSubString');
 // require('./midChar');
 // require('./betterParseInt');
-require('./flatten');
+// require('./flatten');
+// require('./anagramPalindrome');
+require('./eliminateDuplicates');
