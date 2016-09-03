@@ -3,24 +3,21 @@
  * Implement an algorithm to determine if a string has all unique characters.
  */
 function isUnique(string) {
-    let map = {};
+    let map = new Map();
     let chars = string.split('');
-
-    chars.map((value) => {
-      if (typeof map[value] === 'undefined') {
-          map[value] = 1;
-      } else {
-          map[value] += 1;
-      }
-    });
 
     let isUnique = true;
 
-    for(const key in map) {
-        if (map.hasOwnProperty(key) && (map[key] !== 1)) {
-            isUnique = false;
-        }
-    }
+    chars.map((value) => {
+      if (!map.has(value)) {
+          map.set(value, true);
+      } else {
+          isUnique = false;
+      }
+    });
 
     return isUnique;
 }
+
+console.log(isUnique('abcdefg'));
+console.log(isUnique('aabbccfdefg'));
