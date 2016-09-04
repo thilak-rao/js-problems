@@ -12,4 +12,5 @@
 // require('./areTheySame');
 // require('./sortArrays');
 // require('./letterChange');
-require('./simpleAdding');
+// require('./simpleAdding');
+require('./letterCapitalize');
