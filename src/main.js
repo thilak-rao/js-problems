@@ -15,4 +15,5 @@
 // require('./simpleAdding');
 // require('./letterCapitalize');
 // require('./longestWord');
-require('./randomNumber');
+// require('./randomNumber');
+require('./missingNumbers');
