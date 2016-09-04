@@ -14,4 +14,5 @@
 // require('./letterChange');
 // require('./simpleAdding');
 // require('./letterCapitalize');
-require('./longestWord');
+// require('./longestWord');
+require('./randomNumber');
