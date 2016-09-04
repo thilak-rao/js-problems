@@ -11,4 +11,5 @@
 // require('./eliminateDuplicates');
 // require('./areTheySame');
 // require('./sortArrays');
-require('./letterChange');
+// require('./letterChange');
+require('./simpleAdding');
