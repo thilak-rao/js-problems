@@ -10,4 +10,5 @@
 // require('./anagramPalindrome');
 // require('./eliminateDuplicates');
 // require('./areTheySame');
-require('./sortArrays');
+// require('./sortArrays');
+require('./letterChange');
