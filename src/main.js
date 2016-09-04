@@ -13,4 +13,5 @@
 // require('./sortArrays');
 // require('./letterChange');
 // require('./simpleAdding');
-require('./letterCapitalize');
+// require('./letterCapitalize');
+require('./longestWord');
