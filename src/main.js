@@ -17,4 +17,5 @@
 // require('./longestWord');
 // require('./randomNumber');
 // require('./missingNumbers');
-require('./compareObjects');
+// require('./compareObjects');
+require('./noRepeatingChar');
