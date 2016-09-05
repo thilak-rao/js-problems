@@ -18,4 +18,5 @@
 // require('./randomNumber');
 // require('./missingNumbers');
 // require('./compareObjects');
-require('./noRepeatingChar');
+// require('./noRepeatingChar');
+require('./removeDuplicateFromString');
