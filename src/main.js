@@ -16,4 +16,5 @@
 // require('./letterCapitalize');
 // require('./longestWord');
 // require('./randomNumber');
-require('./missingNumbers');
+// require('./missingNumbers');
+require('./compareObjects');
