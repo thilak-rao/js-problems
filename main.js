@@ -20,3 +20,4 @@ require('./problems/noRepeatingChar');
 require('./problems/missingNumbers');
 require('./problems/compareObjects');
 require('./problems/removeDuplicateFromString');
+require('./problems/promise');
