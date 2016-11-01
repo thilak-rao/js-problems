@@ -21,3 +21,4 @@ require('./problems/missingNumbers');
 require('./problems/compareObjects');
 require('./problems/removeDuplicateFromString');
 require('./problems/promise');
+require('./problems/findtriplets');
